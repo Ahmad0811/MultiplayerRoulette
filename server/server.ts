@@ -7,7 +7,8 @@ import { Timer } from "easytimer.js";
 const httpServer = createServer();
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:3000"
+  origin: ["http://localhost:3000","https://fd7e-212-237-123-234.ngrok-free.app"],
+    
   }
 });
 var timer = new Timer();

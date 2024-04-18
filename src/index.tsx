@@ -11,8 +11,13 @@ const root = createRoot(rootElement);
 console.log(555);
 
 function App() {
+
+console.log(555);
+
   const [stringValue, setStringValue] = useState('');
   const [usernameValue, setUsernameValue] = useState('');
+console.log(555);
+
   if (usernameValue === '') {
     return (
       <div className={"auth-user"}>
